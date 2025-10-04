@@ -33,7 +33,6 @@ function c = collapsibility(nQ, nLayers, e)
 % Cite the thesis when available.
 %
 
-
 %%
     if nargin < 3, e = 0.2; end
     
@@ -69,4 +68,5 @@ function c = collapsibility(nQ, nLayers, e)
         end
         c(node) = count / ((nLayers)*(nLayers-1)/2);
     end
+
 end
