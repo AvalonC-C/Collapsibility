@@ -61,7 +61,7 @@ function c = collapsibility(nQ, nLayers, e)
         % calculate collapsibility
         for layer1 = 0:nLayers-1
             for layer2 = (layer1 + 1):nLayers-1
-                if abs(nQ(node+(layer1*nNodes)) - nQ(node+(layer2*nNodes))) < e*avg_nQ % Example inequality
+                if abs(nQ(node+(layer1*nNodes)) - nQ(node+(layer2*nNodes))) < e*avg_nQ
                     count = count + 1;
                 end
             end
@@ -70,3 +70,4 @@ function c = collapsibility(nQ, nLayers, e)
     end
 
 end
+
