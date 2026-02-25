@@ -28,6 +28,9 @@ function c = collapsibility(nQ, nLayers, e)
 %
 % c - the collapsibility of each node in the network (nx1 vector).
 %
+% Note: generative AI was used for the initial code structure prior to 
+% editing and testing.
+%
 % To do:
 %
 % Cite the thesis when available.
@@ -70,4 +73,5 @@ function c = collapsibility(nQ, nLayers, e)
     end
 
 end
+
 
